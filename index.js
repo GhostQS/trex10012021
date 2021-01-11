@@ -4,7 +4,7 @@ const TelegramBot = require("node-telegram-bot-api");
 
 const TOKEN = "1554230913:AAEXGFwRs4ofScYORFNtj-pn1V8XxSNTAdI";
 const server = express();
-const bot = new TelegramBot(TOKEN, { polling: true } );
+const bot = new TelegramBot(TOKEN, { polling: false } );
 
 const port = process.env.PORT || 5000;
 const gameName = "trexjump";
